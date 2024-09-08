@@ -1,6 +1,6 @@
 document.getElementById('resultadoConversao').style.display = 'none';
 
-const apiKey = 'a3a68ac008c6ae491b64cc1540b0070b';
+const apiKey = 'YOUR_API_KEY';
 const apiUrl = `https://api.exchangeratesapi.io/v1/latest?access_key=${apiKey}&format=1`;
 
 const moedas = [
