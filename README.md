@@ -43,11 +43,11 @@ Este é um projeto simples de conversor de moedas utilizando HTML, CSS e JavaScr
 
 ## API
 
-Este projeto utiliza a API pública ExchangeRatesAPI. Para que o projeto funcione, é necessário obter uma chave de API gratuita:
+**Importante:** A chave de API foi removida do projeto por questões de segurança. Para que o projeto funcione, é necessário obter uma chave de API gratuita:
 
 1. Crie uma conta no [ExchangeRatesAPI](https://exchangeratesapi.io/).
 2. Gere uma chave de API gratuita.
-3. Adicione sua chave de API no arquivo `script.js` para que as requisições funcionem corretamente:
+3. Adicione sua chave de API no arquivo `conversor.js` para que as requisições funcionem corretamente:
 
     ```js
     const apiKey = 'SUA_CHAVE_DE_API';
